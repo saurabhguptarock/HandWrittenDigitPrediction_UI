@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Hand Written Digit Prediction</title>
+    <link rel="stylesheet" href="./bootstrap.min.css" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="mt-5">
+        <div>
+          <h3>Draw Here</h3>
+          <canvas
+            class="draw-digit"
+            height="28"
+            width="28"
+            id="draw"
+          ></canvas>
+        </div>
+        <div><canvas id="chart" class="chart"></canvas></div>
+      </div>
+      <div class="erase-btn">
+        <button class="btn btn-danger" onclick="location.reload()">
+          Erase
+        </button>
+      </div>
+    </div>
+  </body>
+  <script src="./jquery.min.js"></script>
+  <script src="./tensorflow.min.js"></script>
+  <script src="./chart.min.js"></script>
+  <script src="./main.js"></script>
+</html>

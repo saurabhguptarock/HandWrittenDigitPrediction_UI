@@ -1,0 +1,33 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  background-image: url("./background.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.draw-digit {
+  float: left;
+  width: 30%;
+  height: 317px;
+  border: solid 7px rgb(255, 140, 9);
+  cursor: crosshair;
+}
+.chart {
+  float: right;
+  width: 68%;
+  max-height: 318.2px;
+  max-width: 632.4px;
+  border: solid 2px rgb(99, 90, 90);
+}
+.mt-5 h3 {
+  margin-left: 20px;
+  color: white;
+}
+.mt-5 {
+  height: 300px;
+}
+.erase-btn{
+  margin-top: 100px;
+}
